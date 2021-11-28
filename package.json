@@ -46,5 +46,9 @@
   },
   "devDependencies": {
     "env-cmd": "^10.1.0"
+  },
+  "engines": {
+    "node": "16.9.1",
+    "npm": "7.21.1"
   }
 }
