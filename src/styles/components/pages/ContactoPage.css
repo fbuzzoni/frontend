@@ -1,0 +1,66 @@
+.contacto{
+    margin-top: 70px;
+    /* background-color: whitesmoke;  */
+	background: url(../../../images/nptcheckin.jpg);
+	float: left;
+	width: 100%;
+	height: auto;
+	background-repeat:no-repeat; /* No se repetira */
+	/*background-size:cover; /* Imagen al 100% del ancho */
+	background-attachment: fixed; /* Posicion fija para la imagen */
+	text-align: center;
+	overflow: auto;
+	align-items: center;
+}
+
+.contacto h1{
+	color:#303030;
+    font-size: 60px;
+	text-align: center;
+	}
+
+.labelcomentario {
+    vertical-align: top;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.grid {
+max-width: 1000px;
+display: flex;
+margin: 0 auto; /*centro uno y dos*/
+padding: 40px;
+border-radius: 10px; /* agrega circunferencia a los bordes del contenedor*/
+box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; /* sombra del contenedor */
+background-color: whitesmoke;
+margin-bottom: 70px;
+opacity: 95%;
+}
+
+.uno{
+	border-right: 1px solid gray;
+	padding-right: 25px;
+	width: 50%;
+	text-align: left;
+}
+.dos {
+	padding-left: 25px;
+	width: 50%;
+	text-align: left;
+}
+
+.formulario label{
+	width: 30%;
+	display: inline-block;
+}
+
+.formulario input,
+.formulario textarea{
+	border-radius: 5px;
+	border: 1px solid #999;
+	padding: 0.4em 0.4em;
+	width: 70%;
+}
+
